@@ -1,0 +1,15 @@
+moneyN = float(input())
+moneyI = float(input())
+moneyN /= 2
+moneyI /= 2
+
+# print(float(moneyI))
+# print(float(moneyN))
+
+ilya_to_nikita = moneyN
+nikita_to_ilya = moneyI
+
+if ilya_to_nikita < nikita_to_ilya:
+    print(f'Никита должен Илье {nikita_to_ilya - ilya_to_nikita}')
+else:
+    print(f'Илья должен Никите {ilya_to_nikita - nikita_to_ilya}')
